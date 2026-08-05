@@ -3,15 +3,6 @@ body {
     box-sizing: border-box;
 }
 
-.ingreds,
-.steps {
-    border: 2px solid rgba(49, 109, 107, 0.892);
-    display: inline-block;
-    width: 46%;
-    margin: 0px 3px;
-    padding: 0 5px 10px;
-}
-
 .menu li{
     height: 30px;
 }
@@ -19,4 +10,17 @@ body {
 .desc-text {
     padding: 0 10px;
     color:darkslategray;
+}
+
+.ingreds-and-steps {
+    display: flex;
+}
+
+.ingreds-and-steps div {
+    flex: 1;
+    border: 2px solid rgba(49, 109, 107, 0.892);
+    display: inline-block;
+    width: 46%;
+    margin: 0px 3px;
+    padding: 0 5px 10px;
 }
