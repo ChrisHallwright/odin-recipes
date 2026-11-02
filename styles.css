@@ -17,7 +17,7 @@ body {
 }
 
 .ingreds-and-steps div {
-    flex: 1;
+    flex: auto;
     border: 2px solid rgba(49, 109, 107, 0.892);
     display: inline-block;
     width: 46%;
